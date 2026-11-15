@@ -72,10 +72,10 @@ export const certifications = [
 ]
 
 export const skills = [
-  { group: 'Linguagens', items: ['Java 8–21', 'Kotlin', 'TypeScript', 'Go', 'Python', 'SQL'] },
-  { group: 'Backend e arquitetura', items: ['Spring Boot', 'Spring Security', 'Spring Cloud', 'Spring Data JPA', 'WebFlux', 'Node.js', 'Prisma', 'REST', 'Microsserviços', 'DDD', 'Clean Architecture', 'OAuth2/JWT', 'Saga'] },
-  { group: 'Dados, cloud e DevOps', items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Kafka', 'RabbitMQ', 'Docker', 'AWS', 'Terraform', 'GitHub Actions'] },
-  { group: 'Qualidade e observabilidade', items: ['JUnit 5', 'Mockito', 'Testcontainers', 'JaCoCo', 'Swagger', 'Prometheus', 'Grafana', 'Datadog'] },
+  { group: 'Linguagens', items: ['Java 8–21 (Virtual Threads)', 'Kotlin', 'TypeScript', 'Go', 'Python', 'SQL'] },
+  { group: 'Backend e arquitetura', items: ['Spring Boot', 'Spring Security', 'Spring Cloud', 'Spring Data JPA', 'WebFlux', 'Node.js', 'Prisma', 'API REST', 'Microsserviços', 'DDD', 'Clean Architecture', 'OAuth2/JWT', 'Saga', 'Idempotência', 'Cache-aside'] },
   { group: 'Front-end', items: ['React', 'Angular'] },
-  { group: 'IA', items: ['IA generativa', 'Agentes de IA', 'RAG', 'Claude Code', 'Codex', 'Kiro'] },
+  { group: 'Dados, cloud e DevOps', items: ['PostgreSQL', 'MySQL', 'MongoDB', 'Redis', 'Flyway', 'Kafka', 'RabbitMQ', 'Docker', 'Docker Compose', 'AWS', 'Terraform', 'GitHub Actions'] },
+  { group: 'Qualidade e observabilidade', items: ['JUnit 5', 'Mockito', 'MockMvc', 'Testcontainers', 'JaCoCo', 'OpenAPI/Swagger', 'Micrometer', 'Prometheus', 'Grafana', 'Datadog', 'Maven', 'Gradle', 'Git'] },
+  { group: 'IA', items: ['Claude Code', 'Codex', 'Trae', 'Kiro', 'Agentes de IA', 'ReAct', 'Tree of Thoughts (ToT)', 'Skeleton of Thought (SoT)', 'SDD', 'IA generativa', 'RAG'] },
 ]

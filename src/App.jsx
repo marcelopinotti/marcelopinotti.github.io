@@ -98,7 +98,7 @@ export default function App() {
         <div className="container">
           <h1>Marcelo Pinotti</h1>
           <h2>Engenheiro de Software</h2>
-          <p>Construo APIs e microsserviços em Java, Spring Boot e AWS, com foco em segurança, cache, testes e observabilidade. Sou certificado AWS Cloud Practitioner</p>
+          <p>Projeto de sistemas distribuídos em Java e Spring Boot, com arquitetura de microsserviços e Clean Architecture. APIs REST, comunicação assíncrona com Kafka e RabbitMQ, cache com Redis, métricas e monitoramento com Prometheus e Grafana, containerização com Docker e deploy na AWS.</p>
           <div className="btns">
             <a href="#projetos" className="btn btn-primary">Ver projetos</a>
             <a href={CV_PDF} className="btn btn-outline">Baixar currículo</a>
@@ -112,8 +112,8 @@ export default function App() {
           <div className="about">
             <div>
               <p>Sou Engenheiro de Software com foco em <strong>Java e Spring Boot</strong>. Trabalho com arquitetura de software, microsserviços, APIs REST, cache distribuído com Redis, autenticação com Spring Security e OAuth2/JWT, testes automatizados e observabilidade com Prometheus e Grafana, sempre com Docker e AWS.</p>
-              <p>Hoje sou Engenheiro de Software Full Stack na <strong>Paparazzi Fotografia</strong>, onde trabalho com Node.js, TypeScript, Kotlin e PostgreSQL. Lá coloquei em produção a integração de pagamentos com cartão e Pix, escalei a caixa de entrada do WhatsApp de 300 para quase 50 mil conversas e corrigi vulnerabilidades do OWASP Top 10 que expunham dados de mais de 110 mil clientes.</p>
-              <p>Curso Análise e Desenvolvimento de Sistemas na UnP, sou graduado no programa AWS re/Start e contribuo com projetos open source.</p>
+              <p>Hoje sou <strong>Engenheiro de Software Full Stack</strong> na Paparazzi Fotografia, onde trabalho com Node.js, TypeScript, Kotlin e PostgreSQL. Lá coloquei em produção a integração de pagamentos com cartão e Pix, escalei a caixa de entrada do WhatsApp de 300 para quase 50 mil conversas e corrigi vulnerabilidades do OWASP Top 10 que expunham dados de mais de 110 mil clientes.</p>
+              <p>Curso Análise e Desenvolvimento de Sistemas na UnP, tenho certificação <strong>AWS Cloud Practitioner</strong> e contribuo com projetos open source.</p>
             </div>
             <div className="photo"><img src="foto.jpg" alt="Marcelo Pinotti" /></div>
           </div>
