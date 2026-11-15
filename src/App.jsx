@@ -113,7 +113,7 @@ export default function App() {
             <div>
               <p>Sou Engenheiro de Software com foco em <strong>Java e Spring Boot</strong>. Trabalho com arquitetura de software, microsserviços, APIs REST, cache distribuído com Redis, autenticação com Spring Security e OAuth2/JWT, testes automatizados e observabilidade com Prometheus e Grafana, sempre com Docker e AWS.</p>
               <p>Hoje sou <strong>Engenheiro de Software Full Stack</strong> na Paparazzi Fotografia, onde trabalho com Node.js, TypeScript, Kotlin e PostgreSQL. Lá coloquei em produção a integração de pagamentos com cartão e Pix, escalei a caixa de entrada do WhatsApp de 300 para quase 50 mil conversas e corrigi vulnerabilidades do OWASP Top 10 que expunham dados de mais de 110 mil clientes.</p>
-              <p>Curso Análise e Desenvolvimento de Sistemas na UnP, sou graduado no programa AWS re/Start e contribuo com projetos open source.</p>
+              <p>Curso Análise e Desenvolvimento de Sistemas na UnP, tenho certificação <strong>AWS Cloud Practitioner</strong> e contribuo com projetos open source.</p>
             </div>
             <div className="photo"><img src="foto.jpg" alt="Marcelo Pinotti" /></div>
           </div>
