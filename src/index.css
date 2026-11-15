@@ -63,6 +63,7 @@ section { padding: 96px 0; border-top: 1px solid var(--border); }
   border: 1px solid var(--border); border-radius: 999px; padding: 3px 12px;
   transition: border-color 0.2s, color 0.2s;
 }
+.chip { cursor: default; user-select: none; }
 .chip:hover { border-color: var(--accent); color: var(--accent); }
 .skills .chip { font-size: 0.95rem; padding: 6px 16px; }
 
@@ -85,6 +86,8 @@ section { padding: 96px 0; border-top: 1px solid var(--border); }
 .timeline { margin-bottom: 56px; border-bottom: 1px solid var(--border); }
 .item { display: grid; grid-template-columns: 170px 1fr; gap: 24px; padding: 24px 0; border-top: 1px solid var(--border); }
 .item .period { font-size: 0.85rem; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 3px; }
+.badge img { width: 44px; height: 44px; opacity: 0.75; transition: opacity 0.2s; }
+.badge:hover img { opacity: 1; }
 .item h3 { font-size: 1.1rem; font-weight: 500; margin-bottom: 2px; }
 .item .place { color: var(--muted); font-size: 0.95rem; margin-bottom: 8px; }
 .item li { color: var(--muted); font-size: 0.95rem; }
