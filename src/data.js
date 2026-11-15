@@ -63,7 +63,7 @@ export const education = [
 ]
 
 export const certifications = [
-  { title: 'AWS Certified Cloud Practitioner (CLF-C02)', place: 'Amazon Web Services' },
+  { title: 'AWS Certified Cloud Practitioner (CLF-C02)', place: 'Amazon Web Services · emitida em 21/10/2026 · válida até 21/10/2029', badge: { img: 'aws-ccp.png', href: 'https://www.credly.com/badges/30e03b13-ee17-4349-b8e2-9409149092b7' } },
   { period: '2026', title: 'AWS re/Start Graduate', place: 'Amazon Web Services' },
   { period: '2026', title: 'AWS re/Start, IA + No Code', place: 'Escola da Nuvem (300h)' },
   { period: '2025', title: 'Java Foundations e Database Foundations', place: 'Oracle Academy' },

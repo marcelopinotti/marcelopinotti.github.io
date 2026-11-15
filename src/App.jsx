@@ -27,7 +27,14 @@ const Timeline = ({ entries }) => (
   <div className="timeline">
     {entries.map((e) => (
       <div className="item" key={e.title}>
-        <span className="period">{e.period}</span>
+        <span className="period">
+          {e.period}
+          {e.badge && (
+            <a href={e.badge.href} target="_blank" className="badge" title="Verificar no Credly">
+              <img src={e.badge.img} alt={`Selo ${e.title}`} />
+            </a>
+          )}
+        </span>
         <div>
           <h3>{e.title}</h3>
           <div className="place">{e.place}</div>
